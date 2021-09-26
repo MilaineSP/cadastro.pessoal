@@ -1,0 +1,101 @@
+formulário.html
+<!DOCTYPE index.html>
+<index.html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário | MP</title>
+    <script>
+        const mensagem = "esse é um formulário de alerta!"
+        alert("Esse é um formulário de cadastro!")
+    </script>
+</head>
+   <style>
+body{font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17,54, 71));
+  }
+  </style>
+<div class="inputbox"> 
+    <form action="">
+       <fieldset>
+        <legend><b>Formulário Cadastral</b></legend>
+        <subtile><b>Complete as informações:</subtitle>
+        <br><br>
+         <div class="inputbox">
+           <label for="nome"><b>Nome*:</label> 
+           <input type="text" name=nome id="nome" class="inputUser" required maxlength="45">
+        </div>
+        <br><br>
+        <div class="inputbox">
+         <label for="cpf"><b>CPF*</label>
+         <input type="text" id="cpf" class="inputUser" required maxlength="14">
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="rg"><b>RG:</label> 
+            <input type="rg" name=rg id="rg" class="inputUser">
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="Telefone-Fixo"><b>Telefone-Fixo:</label> 
+            <input type="tel" name=telefone-fixo id="telefone-fixo" class="inputUser" maxlength="11">
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="Celular"><b><Celular>Celular*</Celular>:</label> 
+            <input type="cel" name=celular id="celular" class="inputUser" required maxlength="11">
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="email"><b>Email:</label> 
+            <input type="email" name=email id="email" class="inputUser" maxlength="50">
+         </div>
+         <br><br>
+         <P>Sexo:</P>
+         <label for="Feminino">Feminino</label>
+         <input type="radio" id="feminino"  name="genero" value="feminino">
+         <label for="masculino">Masculino</label>
+         <input type="radio" id="masculino"  name="genero" value="masculino">
+         <label for="outros">Outros</label>
+         <input type="radio" id="outros"  name="genero" value="outros">
+         <div class="inputbox">
+            <label for="data_nascimento"><b>Data de nascimento:</label> 
+            <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser">
+         </div>
+         <br><br>
+         <div class="inputbox">
+         <label for="endereço"><b>Endereço*:</label> 
+         <input type="text" name=endereço id="endereço" class="inputUser" required>
+         </div>
+         <br><br>
+         <div class="inputbox">
+         <label for="numero"><b>Número*:</label> 
+         <input type="number" name=numero id="numero" class="inputUser" required>
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="bairro"><b>Bairro:</label> 
+            <input type="text" name=bairro id="bairro" class="inputUser">
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="cep"><b>CEP:</label>
+            <input type="text" name=cep id="cep" class="inputUser" maxlength="9"> 
+         </div>
+         <br><br>
+         <div class="inputbox">
+            <label for="estado"><b>Estado:</label> 
+            <input type="text" name=estado id="estado" class="inputUser">
+         </div>
+        </fieldset>
+         <br><br>
+         <fieldset>
+         <div>
+         <button class="button" type="submit">Botão enviar dados.</button>
+         </div>
+       </fieldset>
+       </form>
+</div>  
+</body>
+</index.html>
